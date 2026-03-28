@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hospital Hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 🔵 Navbar -->
+    <header>
+      <div class="logo">🏥 HospitalHub</div>
+      <input type="text" placeholder="Search doctors..." />
+      <button onclick="goToCart()">Appointments 🛒</button>
+    </header>
+
+    <!-- 🟣 Banner -->
+    <section class="banner">
+      <h1>Your Health, Our Priority</h1>
+      <p>Book appointments with top doctors</p>
+    </section>
+
+    <!-- 🟢 Categories -->
+    <section class="categories">
+      <h2>Specializations</h2>
+      <div class="category-list">
+        <div>❤️ Cardiologist</div>
+        <div>🦷 Dentist</div>
+        <div>🧠 Neurologist</div>
+        <div>👶 Pediatrician</div>
+      </div>
+    </section>
+
+    <!-- 🔴 Doctor Cards -->
+    <section class="doctors">
+      <h2>Top Doctors</h2>
+      <div id="doctorContainer"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

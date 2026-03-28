@@ -1,0 +1,145 @@
+/* 🔹 Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* 🔹 Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #2874f0;
+  color: white;
+}
+
+header input {
+  padding: 8px;
+  width: 40%;
+  border-radius: 5px;
+  border: none;
+}
+
+/* 🔹 Banner */
+.banner {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+/* 🔹 Categories */
+.categories {
+  padding: 20px;
+  text-align: center;
+}
+
+.category-list div {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-list div:hover {
+  background: #2874f0;
+  color: white;
+}
+
+/* 🔹 Doctor Section */
+.doctors {
+  padding: 20px;
+}
+
+#doctorContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 🔹 Cards (Doctors + Cart) */
+.card {
+  background: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* 🔹 Buttons */
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #2874f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0b5ed7;
+}
+
+/* 🔹 Cart Page */
+#cartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* 🔹 Empty Message */
+h3 {
+  text-align: center;
+}
+
+/* 🔹 Responsive (Mobile) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header input {
+    width: 90%;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+#appointmentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
